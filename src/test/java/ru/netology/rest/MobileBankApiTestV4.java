@@ -5,7 +5,7 @@ import static io.restassured.RestAssured.given;
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
 
 
-public class MobileBankApiTestV4 {
+class MobileBankApiTestV4 {
     @Test
     void shouldReturnDemoAccounts() {
         // Given - When - Then
